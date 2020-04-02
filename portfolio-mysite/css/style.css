@@ -654,3 +654,193 @@ width: 200px;
     margin-bottom: 5px;
   }
 }
+
+/*media Queries 667
+----------------------------------------------------*/
+
+@media screen and (max-width: 667px) {
+  body {
+    font-size: 11px;
+    line-height: 1.7;
+  }
+
+  .infoicon{
+    color: #663333;
+    padding-right: 5px;
+    font-size: 1.5em;
+  }
+
+  #header {
+    height: 60vh;
+  }
+
+  #header .logo-title {
+    font-size: 40px;
+  }
+
+  #header .logo-name {
+    font-size: 16px;
+  }
+
+  #header .logo-desc {
+    font-size: 10px;
+  }
+
+  #gnav ul li{
+    flex: 1 0 auto;
+  }
+
+  #gnav ul{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 3%;
+    width: 94%;
+    max-width: 960px;
+  }
+
+  #g_navi ul li a {
+    display: block;
+    padding: 17px 10px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #gnav li {
+    padding: 0 10px;
+  }
+
+  #gnav li a {
+    font-size: 18px;
+  }
+
+  #gnav li a:hover {
+    opacity: 1;
+  }
+
+  #contents {
+    padding: 40px 0;
+  }
+
+  .section .inner {
+    padding: 30px 15px;
+  }
+
+  .section .section-title-block {
+    margin-bottom: 10px;
+  }
+
+  .section .section-title {
+    font-size: 32px;
+  }
+
+  #Introduction .two-column-wrapper {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  #Introduction .two-column-image {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  #Introduction .two-column-desc {
+    width: 100%;
+  }
+
+  #works .card {
+    width: 48%;
+  }
+
+  .card-image img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  #works .card-caption-title {
+    font-size: 12px;
+  }
+
+  #works .card-caption-info {
+    font-size: 11px;
+  }
+
+  #skill .card-wrapper {
+    width: 100%;
+  }
+
+  #skill .card {
+    flex-basis: 100%;
+  }
+
+  #skill .skill-icon {
+    flex-basis: 45px;
+  }
+
+  #skill .skill-icon img {
+    width: 45px;
+  }
+
+  #skill .skill-desc {
+    flex-basis: calc(100% - 45px - 20px);
+  }
+
+  #skill .rate {
+    height: 15px;
+    font-size: 15px;
+  }
+
+  #skill .rate:before,
+  #skill .rate:after {
+    height: 15px;
+    line-height: 15px;
+  }
+
+  #skill .rate1:after {
+    width: 15px;
+  }
+
+  #skill .rate2:after {
+    width: 35px;
+  }
+
+  #skill .rate3:after {
+    width: 55px;
+  }
+
+  #skill .rate4:after {
+    width: 75px;
+  }
+
+  #skill .rate5:after {
+    width: 95px;
+  }
+
+  #contact .contact-list ul {
+    width: 100%;
+  }
+
+  #contact .contact-list li {
+    flex-basis: 30%;
+  }
+
+  #contact .contact-list li img {
+    width: 30px;
+  }
+
+  #contact .contact-list-desc {
+    font-size: 12px;
+  }
+
+  #footer .inner {
+    padding: 20px 0;
+  }
+
+  #footer .footer-link li {
+    font-size: 10px;
+    padding: 0 10px;
+    margin-bottom: 5px;
+  }
+}
